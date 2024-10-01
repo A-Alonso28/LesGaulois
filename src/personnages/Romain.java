@@ -29,4 +29,10 @@ public class Romain {
 			parler("J'abandonne !");
 		}
 	}
+	
+	public static void main(String [] args) {
+		Romain romain2 = new Romain("romain2", 10);
+		romain2.recevoirCoup(5);
+		romain2.parler("Je teste la méthode parler");
+	}
 }
