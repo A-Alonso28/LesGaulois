@@ -48,5 +48,7 @@ public class Gaulois {
 		asterix.boirePotion(5);
 		asterix.frapper(romain1);
 		
+		System.out.println(asterix);
+		
 	}
 }
