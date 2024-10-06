@@ -13,6 +13,8 @@ public class scénario {
 		Druide panoramix = new Druide("Panoramix", 5, 10);
 		Gaulois obelix = new Gaulois("Obélix", 25);
 		
+		panoramix.parler("Je vais aller préparer une petite potion...");
+		panoramix.preparerPotion();
 		panoramix.booster(obelix);
 		obelix.parler("Par Bélénos, ce n'est pas juste !");
 		panoramix.booster(asterix);

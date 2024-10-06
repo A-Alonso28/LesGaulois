@@ -1,6 +1,6 @@
 package personnages;
 
-public class Romain {
+public class Romain { 
 	private String nom;
 	private int force;
 
@@ -14,7 +14,7 @@ public class Romain {
 	}
 
 	public void parler(String texte) {
-		System.out.println(prendreParole() + "« " + texte + "»");
+		System.out.println(prendreParole() + "Â« " + texte + "Â»");
 	}
 
 	private String prendreParole() {
@@ -24,7 +24,7 @@ public class Romain {
 	public void recevoirCoup(int forceCoup) {
 		force -= forceCoup;
 		if (force > 0) {
-			parler("Aïe");
+			parler("AÃ¯e");
 		} else {
 			parler("J'abandonne !");
 		}
@@ -33,6 +33,6 @@ public class Romain {
 	public static void main(String [] args) {
 		Romain romain2 = new Romain("romain2", 10);
 		romain2.recevoirCoup(5);
-		romain2.parler("Je teste la méthode parler");
+		romain2.parler("Je teste la mÃ©thode parler");
 	}
 }
