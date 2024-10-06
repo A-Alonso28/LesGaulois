@@ -1,7 +1,6 @@
 package personnages;
 
 import java.util.Random;
-import java.util.random.*;
 
 public class Druide {
 	private String nom;
