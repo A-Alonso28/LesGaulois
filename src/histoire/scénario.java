@@ -4,20 +4,20 @@ import personnages.Gaulois;
 import personnages.Druide;
 import personnages.Romain;
 
-public class scénario {
+public class scÃ©nario {
 
 	public static void main(String[] args) {
 		System.out.println("\n");
-		Gaulois asterix = new Gaulois("Astérix", 8);
+		Gaulois asterix = new Gaulois("AstÃ©rix", 8);
 		Romain minus = new Romain("Minus", 6);
 		Druide panoramix = new Druide("Panoramix", 5, 10);
-		Gaulois obelix = new Gaulois("Obélix", 25);
+		Gaulois obelix = new Gaulois("ObÃ©lix", 25);
 		
 		panoramix.booster(obelix);
-		obelix.parler("Par Bélénos, ce n'est pas juste !");
+		obelix.parler("Par BÃ©lÃ©nos, ce n'est pas juste !");
 		panoramix.booster(asterix);
 		asterix.parler("Bonjour");
-		minus.parler("UN GAU... UN GAUGAU...");
+		minus.parler("UN GAU.. UN GAUGAU...");
 		asterix.frapper(minus);
 
 	}
