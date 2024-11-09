@@ -21,6 +21,7 @@ public class scénario {
 		asterix.parler("Bonjour");
 		minus.parler("UN GAU.. UN GAUGAU...");
 		asterix.frapper(minus);
+	
 
 	}
 

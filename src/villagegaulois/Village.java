@@ -1,4 +1,7 @@
-package personnages;
+package villagegaulois;
+
+import personnages.Chef;
+import personnages.Gaulois;
 
 public class Village {
 	private String nom;
@@ -57,6 +60,7 @@ public class Village {
 		
 		Gaulois obelix = new Gaulois("Obélix", 25);
 		village.ajouterHabitant(obelix);
+		village.trouverHabitant(0);
 		village.afficherVillagois();
 
 	}
